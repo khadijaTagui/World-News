@@ -1,0 +1,58 @@
+/* Basic centering for the form */
+center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://elements-video-cover-images-0.imgix.net/files/c580bccd-8114-4c08-97c0-4be2b540a9c7/inline_image_preview.jpg?auto=compress%2Cformat&h=394&w=700&fit=min&s=57e14a5164abebdbf93da88c7e0a5eb7'); /* Remplacez 'url_de_votre_image.jpg' par l'URL de votre image */
+    background-size: cover;
+    background-position: center;
+    background: height 100px; ;
+  
+}
+
+/* Style for input boxes */
+.input-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input-box i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  color: #aaa;
+}
+.input-box textarea{
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Style for the submit button */
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Style for toast notifications */
+/* Add styles for your toast notifications based on the library you're using */

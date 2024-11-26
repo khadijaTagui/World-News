@@ -1,0 +1,352 @@
+* navbar.css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.py-2 h3 {
+  font-weight: 700;
+  font-family: cursive;
+  letter-spacing: 2px;
+  padding: 0.5rem 0;
+}
+
+.py-2 span {
+  color: #3e7cd9;
+}
+.nav_ul li {
+  padding: 0 0.6rem;
+  font-family: "sans-sarif";
+
+}
+
+.nav_ul a {
+  font-size: 1.05rem;
+  color: #000 !important;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  
+}
+/* Add this CSS to your stylesheet or component */
+.nav-link:link{
+  
+  background-color: transparent;
+}
+.nav-link :hover{
+  color: #3e7cd9;
+  background-color: transparent;
+   /* Change 'blue' to your desired color */
+}
+.nav-item:link{
+  color: #3e7cd9;
+  background-color: transparent;
+}
+.nav-item:hover{
+  color: #3e7cd9;
+  background-color: transparent;
+
+   /* Change 'blue' to your desired color */
+}
+
+.nav_3{
+  color: #fff;
+}
+.nav_h3{
+  font-weight: 700;
+  font-family: cursive;
+  letter-spacing: 2px;
+  padding: 0.5rem 0;
+}
+
+.btn1 {
+  border: 0;
+  padding: 0.5rem 1.8rem;
+  color: #fff;
+  background-color: #3e7cd9;
+  text-decoration: none;
+}
+
+.btn2 {
+  border: 0;
+  padding: 0.5rem 1.2rem;
+  background-color: #3e7cd9;
+    text-decoration: none;
+
+}
+
+.Footer {
+  padding: 2rem 0;
+  margin-top: 0rem;
+      background: #3e7cd9;
+      text-align: center;
+      padding: 1rem 0;
+      margin-bottom: 0;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #fff;
+    
+}
+
+.ft-1 h3 {
+  font-weight: 700;
+  font-family: cursive;
+  letter-spacing: 2px;
+  padding: 0.5rem 0;
+}
+
+.ft-1 span {
+  color: #110205;
+}
+
+.ft-1 p {
+  padding: 0rem 5rem 0.8rem 0;
+  font-weight: 500;
+  color: #0e0202;
+}
+
+.footer-icons i {
+  padding: 0.4rem 0.5rem;
+  background: #fffefe;
+  color: #3e7cd9;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+}
+
+.footer-icons i:hover {
+  background: #3e7cd9;
+  color: #fff;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.Footer h4 {
+  color: #fefdfd;
+}
+
+.ft-2 ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ft-2 ul li {
+  padding: 0.35rem 0;
+  font-weight: 500;
+}
+
+.ft-2 ul a {
+  text-decoration: none;
+  color: #060404;
+  font-size: 1.06rem;
+}
+
+.ft-3 p {
+  font-weight: 500;
+  padding: 0.1rem 0;
+  font-size: 1.06rem;
+  color: #000;
+}
+
+.ft-3 i {
+  padding-right: 0.5rem;
+}
+
+.Last-footer {
+  background: #101010;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.Last-footer p {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fefefe;
+}
+
+
+/* ///////////////////////// */
+
+
+/* Login.css */
+
+
+  
+/* Global reset or base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles for the login form */
+.wrapper {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+    justify-content: center;
+    position: relative;
+    background-image: url('https://elements-video-cover-images-0.imgix.net/files/c580bccd-8114-4c08-97c0-4be2b540a9c7/inline_image_preview.jpg?auto=compress%2Cformat&h=394&w=700&fit=min&s=57e14a5164abebdbf93da88c7e0a5eb7'); /* Remplacez 'url_de_votre_image.jpg' par l'URL de votre image */
+    background-size: cover;
+    background-position: center;
+    background: height 100px; ;
+   
+}
+
+form {
+  position: relative;
+  width: 300px;
+  padding: 20px;
+  right: 80px;
+  background: #eae8e8;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #b9b7b6;
+  z-index: 1; 
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #3e7cd9;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 15px;
+
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #e6e1e1;
+  border-radius: 4px;
+}
+
+.input-box i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  font-size: 20px;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* .btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  color: #201e1e;
+  cursor: pointer;
+} */
+.btn {
+  display: inline-block;
+  width: 100%;
+  padding: 10px ;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #3498db;
+}
+
+.btn a {
+  color: inherit; 
+  text-decoration: none;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.register-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+
+
+/* CSS for SignUpForm */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background-image: url('https://elements-video-cover-images-0.imgix.net/files/c580bccd-8114-4c08-97c0-4be2b540a9c7/inline_image_preview.jpg?auto=compress%2Cformat&h=394&w=700&fit=min&s=57e14a5164abebdbf93da88c7e0a5eb7'); /* Remplacez 'url_de_votre_image.jpg' par l'URL de votre image */
+  background-size: cover;
+  background-position: center;
+  background: height 100px; ;
+}
+
+.form-container {
+  width: 300px;
+  padding: 20px;
+  background-color: rgba(240, 240, 240, 0.8); /* Arrière-plan semi-transparent pour améliorer la lisibilité du formulaire */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1; /* Place le formulaire au premier plan */
+}
+.form-container h1 {
+  font-weight: 700;
+  font-family: cursive;
+  letter-spacing: 2px;
+  padding: 0.5rem 0;
+}
+.form-container h1 {
+  color: #3e7cd9;
+}
+
+.form-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3e7cd9;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #3e7cd9;
+}
+
+/* //////////// */
+/* contactUs.css */
+/* CSS for Contact Form */
